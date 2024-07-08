@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #666565;
+}
+
+main {
+    margin-top: 5rem;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sectionOne #bookLogo {
+    height: 50px;
+    width: 50px;
+}
+
+.logoHeader {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: 500;
+    text-transform: uppercase
+}
+
+span {
+    color: rgb(37, 184, 184);
+}
+
+#bookEntryForm {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    background-color: #77E4C8;
+    padding: 2rem;
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+#bookEntryForm input {
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    padding: .7rem;
+    border: 1px solid rgb(136, 169, 180);
+}
+
+#bookEntryForm input:focus {
+    background-color: #b2d2f1;
+    outline: none;
+}
+
+#bookEntryForm button {
+    padding: .75rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all .2s ease-in;
+}
+
+#bookEntryForm button:hover {
+    background: #4535C1;
+    color: white;
+}
+
+.sectionTwo .table {
+    width: 650px;
+}
+
+.table thead {
+    background: #36C2CE;
+}
+
+.table tbody td {
+    background: #cbdfe0;
+    padding: 0 0 0 1rem;
+}
+
+
+
+.table tbody tr td:nth-child(4) {
+    padding: 0;
+    background: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.table tbody tr td:nth-child(5) {
+    padding: 0;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
